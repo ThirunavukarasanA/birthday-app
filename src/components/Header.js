@@ -67,7 +67,7 @@ export default function Header() {
   return (
     <div>
       <div className="">
-        <div className="lg:block lge:block md:hidden mdsm:hidden sm:hidden relative ">
+        <div className="lg:block lge:block md:hidden mdsm:hidden sm:hidden relative h-[100vh]">
           <video
             ref={videoRef}
             onEnded={() => {
@@ -153,7 +153,7 @@ export default function Header() {
           </div>
         </div>
 
-        <div className="lg:hidden lge:hidden md:hidden mdsm:hidden sm:block relative">
+        <div className="lg:hidden lge:hidden md:hidden mdsm:hidden sm:block relative h-[100vh]">
           <video
             ref={mobref}
             onEnded={() => {
