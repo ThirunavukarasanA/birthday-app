@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/birthday-app/static/css/main.27a9ba92.css",
-    "main.js": "/birthday-app/static/js/main.cc38b4d3.js",
+    "main.js": "/birthday-app/static/js/main.7d7ca4a9.js",
     "static/js/453.eb0578ad.chunk.js": "/birthday-app/static/js/453.eb0578ad.chunk.js",
-    "static/media/not ok.mp4": "/birthday-app/static/media/not ok.a49ab80fa1ca9fafd348.mp4",
-    "static/media/not ok p.mp4": "/birthday-app/static/media/not ok p.1ea1c5c923693fef8902.mp4",
+    "static/media/Not ok sam 03.mp4": "/birthday-app/static/media/Not ok sam 03.8590fc9f77142b19b5cd.mp4",
+    "static/media/sam 03 P.mp4": "/birthday-app/static/media/sam 03 P.e8e6e5d8cb0275539d97.mp4",
     "static/media/trutee vertical.mov": "/birthday-app/static/media/trutee vertical.c689bff330d4378befc1.mov",
     "static/media/trutee vertical mob.mov": "/birthday-app/static/media/trutee vertical mob.51860fb0b4748ff69f5c.mov",
     "static/media/story3.mp4": "/birthday-app/static/media/story3.29f06d81d5e871fd8890.mp4",
     "static/media/First.mp4": "/birthday-app/static/media/First.8cb8861bf602fb9073a1.mp4",
     "static/media/trutee lanscap.mov": "/birthday-app/static/media/trutee lanscap.32a3c196a9c99ac19860.mov",
-    "static/media/Group 5.png": "/birthday-app/static/media/Group 5.a7f6d8d3650bb17318b9.png",
-    "static/media/Group 3.png": "/birthday-app/static/media/Group 3.6a093f32ad33d9df7a42.png",
-    "static/media/Group 6.png": "/birthday-app/static/media/Group 6.946964b56e45e6f66432.png",
-    "static/media/Group 7.png": "/birthday-app/static/media/Group 7.9792c0da336d234c9340.png",
-    "static/media/Group 4.png": "/birthday-app/static/media/Group 4.4673f21cdafcdefb28e4.png",
+    "static/media/Group 12.png": "/birthday-app/static/media/Group 12.d13da373bf99f488afd8.png",
+    "static/media/Group 14.png": "/birthday-app/static/media/Group 14.4eebe29a65e4960875f1.png",
+    "static/media/Group 17.png": "/birthday-app/static/media/Group 17.af6948fea003786acabf.png",
+    "static/media/Group 16.png": "/birthday-app/static/media/Group 16.1e903d40858c3abeb489.png",
+    "static/media/Group 15.png": "/birthday-app/static/media/Group 15.7cd9c2d10bce7796c69e.png",
+    "static/media/Group 10.png": "/birthday-app/static/media/Group 10.fa3fc9fcd054462fd3c2.png",
+    "static/media/Group 11.png": "/birthday-app/static/media/Group 11.00a2058dbc7fc474fb86.png",
+    "static/media/Group 13.png": "/birthday-app/static/media/Group 13.273a7ba90b78a9739a9b.png",
     "static/media/sample.wav": "/birthday-app/static/media/sample.f336f852843c69921a73.wav",
-    "static/media/Group 2.png": "/birthday-app/static/media/Group 2.b0081256c97f7c74f911.png",
     "static/media/sample.ogg": "/birthday-app/static/media/sample.8ff915830d5337649db2.ogg",
-    "static/media/Group 8.png": "/birthday-app/static/media/Group 8.f6690be3c4affc836ffc.png",
     "static/media/sample.mp3": "/birthday-app/static/media/sample.54b9775ae7f82bcf7973.mp3",
     "static/media/story.mp4": "/birthday-app/static/media/story.db9fe8c24d89a5fbc072.mp4",
     "static/media/story2.mp4": "/birthday-app/static/media/story2.c75bed517aa6c50e513b.mp4",
@@ -39,11 +40,11 @@
     "static/media/swipe.png": "/birthday-app/static/media/swipe.fcb7b11a7ed5791ce237.png",
     "index.html": "/birthday-app/index.html",
     "main.27a9ba92.css.map": "/birthday-app/static/css/main.27a9ba92.css.map",
-    "main.cc38b4d3.js.map": "/birthday-app/static/js/main.cc38b4d3.js.map",
+    "main.7d7ca4a9.js.map": "/birthday-app/static/js/main.7d7ca4a9.js.map",
     "453.eb0578ad.chunk.js.map": "/birthday-app/static/js/453.eb0578ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.27a9ba92.css",
-    "static/js/main.cc38b4d3.js"
+    "static/js/main.7d7ca4a9.js"
   ]
 }
