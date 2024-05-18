@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
-import DesktopMap from "../Assets/videos/not ok.mp4";
-import TabMap from "../Assets/videos/not ok p.mp4";
+import DesktopMap from "../Assets/videos/Not ok sam 03.mp4";
+import TabMap from "../Assets/videos/sam 03 P.mp4";
 export default function GlobeAnimation() {
   const videoRef = useRef(null);
   const [showDesktop, setShowDesktop] = useState(false);
