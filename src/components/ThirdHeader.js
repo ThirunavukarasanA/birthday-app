@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import { FaArrowLeft } from "react-icons/fa6";
 import { IoIosVideocam } from "react-icons/io";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { IoMdCall } from "react-icons/io";
+import { FaPlus } from "react-icons/fa6";
+import { IoMdCall, IoIosMic } from "react-icons/io";
+import { BsEmojiGrin } from "react-icons/bs";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-cards";
@@ -64,6 +66,29 @@ export default function ThirdHeader({ Scroll }) {
                           <li className="w-1 h-1 bg-white rounded-full mb-[4px]"></li>
                           <li className="w-1 h-1 bg-white rounded-full"></li>
                         </ul>
+                      </div>
+                    </div>
+                  </div>
+                  {/* #e9edef #d1d7dbc0 */}
+                  <div className="pt-[18.3rem] border"></div>
+                  <div className="grid grid-cols-5 bg-[#e9edef]">
+                    <div className="col-span-1">
+                      <div className="flex justify-center items-center h-full">
+                        <FaPlus className="text-[#777879] text-h5" />
+                      </div>
+                    </div>
+                    <div className="col-span-3">
+                      <div className="p-2 flex relative">
+                        <BsEmojiGrin className="mt-2 absolute mx-2" />
+                        <input
+                          placeholder="Type Message here"
+                          className="w-[100%] py-1 px-8 rounded-md placeholder:text-tiny"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-span-1">
+                      <div className="flex justify-center items-center h-full">
+                        <IoIosMic className="text-[#777879] text-h5" />
                       </div>
                     </div>
                   </div>
@@ -242,7 +267,7 @@ export default function ThirdHeader({ Scroll }) {
           <div className="col-span-2 lg:order-1 lge:order-1 md:order-first mdsm:order-first sm:order-first relative">
             <div className="px-16 lg:pt-14 lge:pt-14 md:pt-14 mdsm:pt-16 sm:pt-16">
               {addani ? (
-                <p className="sm:bg-[#16D0A6] tracking-in-contract lg:text-right lge:text-right md:text-center mdsm:text-center sm:text-center lg:text-[50px] lge:text-[50px] md:text-[50px] mdsm:text-[40px] sm:text-[30px] font-semibold leading-tight font-serif">
+                <p className="sm:bg-[#16D0A6] md:bg-[#16D0A6] mdsm:bg-[#16D0A6] tracking-in-contract lg:text-right lge:text-right md:text-center mdsm:text-center sm:text-center lg:text-[50px] lge:text-[50px] md:text-[50px] mdsm:text-[40px] sm:text-[30px] font-semibold leading-tight font-serif">
                   The Top Songs, Artist, <br />
                   Podacasts, and Listening <br /> Trends of 2023 Revealed
                 </p>
@@ -252,7 +277,7 @@ export default function ThirdHeader({ Scroll }) {
                 </p>
               )}
             </div>
-            <div className="pt-24 lg:pb-[20rem] lg:px-32 lge:px-32 md:px-32 mdsm:px-0 sm:px-0 sm:text-center lg:text-right lge:text-right md:text-right mdsm:text-center relative z-10">
+            <div className="lg:pb-[20rem] lg:px-32 lge:px-32 md:px-32 mdsm:px-0 sm:px-0 sm:text-center lg:text-right lge:text-right md:text-right mdsm:text-center relative z-10">
               {/* <button className="border-2 font-semibold py-3 bg-[#16D0A6] px-10 rounded-full">
                 Read More
               </button> */}

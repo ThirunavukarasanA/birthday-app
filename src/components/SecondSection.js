@@ -21,14 +21,14 @@ export default function SecondSection({ Scroll }) {
       <div className="relative">
         <div className="lg:block lge:block md:block mdsm:hidden sm:hidden">
           {addani ? (
-            <>
+            <div className="px-40 pt-20">
               <p
-                className={`tracking-in-contract relative z-10 px-20 pt-20 lg:text-[64px] lge:text-[64px] md:text-[54px] mdsm:text-[44px] sm:text-[24px] font-semibold leading-none font-serif `}
+                className={`tracking-in-contract relative z-10 md:bg-[#DAB503] lg:text-[64px] lge:text-[64px] md:text-[54px] mdsm:text-[44px] sm:text-[24px] font-semibold leading-none font-serif `}
               >
                 Here's What's In <br />
                 Store for Your <br /> 2023 Warpped
               </p>
-            </>
+            </div>
           ) : (
             <p
               className={`relative z-10  px-20 pt-20 lg:text-[64px] lge:text-[64px] md:text-[54px] mdsm:text-[44px] sm:text-[24px] font-semibold leading-none font-serif `}
