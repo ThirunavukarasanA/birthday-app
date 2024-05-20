@@ -40,6 +40,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.whatsAppBg {
+  background: url(../images/whatsApp\ bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .mobthirdbg {
   background: url(../images/secondheader/mobview.png);
   background-position: center;

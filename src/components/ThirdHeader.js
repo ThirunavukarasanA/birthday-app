@@ -1,10 +1,22 @@
-import React, { useEffect, useState } from "react";
+import React, {
+  useEffect,
+  useState,
+  useMemo,
+  useCallback,
+  useRef,
+} from "react";
+// import { createRoot } from "react-dom/client";
+// import { useWavesurfer } from "wavesurfer-react";
+// import Timeline from "wavesurfer.js/dist/plugins/timeline.esm.js";
+import WaveSurfer from "wavesurfer.js";
 import { FaArrowLeft } from "react-icons/fa6";
 import { IoIosVideocam } from "react-icons/io";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FaPlus } from "react-icons/fa6";
 import { IoMdCall, IoIosMic } from "react-icons/io";
+import { FaPlayCircle, FaPause } from "react-icons/fa";
 import { BsEmojiGrin } from "react-icons/bs";
+import Audio1 from "../Assets/audios/sample.mp3";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-cards";
@@ -16,6 +28,7 @@ import Ring from "../Assets/images/secondheader/ring.png";
 import Star from "../Assets/images/secondheader/star.png";
 import Ring2 from "../Assets/images/secondheader/ring2.png";
 import Mix from "../Assets/images/secondheader/mix2.png";
+import AudioPlayer from "./AudioPlayer";
 export default function ThirdHeader({ Scroll }) {
   // console.log(Scroll);
   const [addani, setAddani] = useState(false);
@@ -70,7 +83,30 @@ export default function ThirdHeader({ Scroll }) {
                     </div>
                   </div>
                   {/* #e9edef #d1d7dbc0 */}
-                  <div className="pt-[18.3rem] border"></div>
+                  <div className="bg-[#cfcecea1]">
+                    <div className="whatsAppBg h-[18.5rem] pb-2">
+                      <div className="pt-10">
+                        <div className="bg-white w-fit p-2 rounded-e-md rounded-b-md mx-3">
+                          <div className="flex items-center gap-x-3">
+                            <p>🥳 Happy Birthday 🎂</p>
+                            <p className="text-tiny text-grey">3.00 pm</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="pt-10">
+                        <div className="bg-white w-fit p-2 rounded-e-md rounded-b-md mx-3">
+                          <AudioPlayer src={Audio1} />
+                          {/* <div className="flex items-center gap-x-3"> */}
+                          {/* <audio controls className="w-52">
+                              <source src={Audio1} type="audio/mp3" />
+                            </audio>
+                            <p className="flex justify-end text-tiny text-grey">3.00 pm</p> */}
+                          {/* </div> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <div className="grid grid-cols-5 bg-[#e9edef]">
                     <div className="col-span-1">
                       <div className="flex justify-center items-center h-full">
