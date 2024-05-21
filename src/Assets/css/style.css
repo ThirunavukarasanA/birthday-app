@@ -34,6 +34,15 @@
   );
   z-index: -1;
 }
+.volume {
+  background: linear-gradient(
+    190deg,
+    #e20909 0.11%,
+    #400073 61.13%,
+    #f036a4 146.81%
+  );
+  z-index: -1;
+}
 .thirdbg {
   background: url(../images/secondheader/thirdbg1.png);
   background-position: center;

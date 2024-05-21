@@ -4,13 +4,16 @@ import TabMap from "../Assets/videos/sam 03 P.mp4";
 export default function GlobeAnimation() {
   const videoRef = useRef(null);
   const [showDesktop, setShowDesktop] = useState(false);
+  const [showArrow, setShowArrow] = useState(false);
   const handleVideoEnded = () => {
     setShowDesktop(true);
+    setShowArrow(true);
   };
   const handleDesktopVideoPlayButton = () => {
     if (videoRef.current) {
       videoRef.current.play();
       setShowDesktop(false);
+      setShowArrow(false);
     }
   };
   const mobileRef = useRef(null);
@@ -89,6 +92,13 @@ export default function GlobeAnimation() {
                 Play Again
               </button>
             </div>
+          </div>
+        )}
+        {showArrow && (
+          <div className="absolute bottom-0 -right-0 border">
+            <a href="#scroll" className="text-white">
+              arrow
+            </a>
           </div>
         )}
       </div>

@@ -7,7 +7,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "../Assets/css/secondcarosel.css";
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import Group from "../Assets/images/wave/Group 10.png";
 import Group2 from "../Assets/images/wave/Group 11.png";
 import Group3 from "../Assets/images/wave/Group 12.png";
@@ -67,6 +67,7 @@ export default function SecondCarosel() {
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={"auto"}
+        navigation={true}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
@@ -75,7 +76,7 @@ export default function SecondCarosel() {
           slideShadows: true,
         }}
         // pagination={true}
-        modules={[EffectCoverflow, Pagination]}
+        modules={[EffectCoverflow, Pagination, Navigation]}
         className="mySwiper"
       >
         {waveImag.map((m) => (

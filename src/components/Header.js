@@ -95,12 +95,12 @@ export default function Header() {
               </div>
             </div>
           )}
-          <div className="absolute top-24 right-10 ">
+          <div className="absolute bottom-20 right-10">
             <button
               onClick={() => {
                 toggleMute();
               }}
-              className="p-3 rounded-full bg-grey"
+              className="p-3 rounded-full volume"
             >
               {muted ? (
                 <IoMdVolumeOff className="text-h5 text-white" />
@@ -137,12 +137,12 @@ export default function Header() {
               </div>
             </div>
           )}
-          <div className="absolute top-24 right-10 ">
+          <div className="absolute bottom-24 right-10 ">
             <button
               onClick={() => {
                 TabtoggleMute();
               }}
-              className="p-3 rounded-full bg-grey"
+              className="p-3 rounded-full volume"
             >
               {tabmute ? (
                 <IoMdVolumeHigh className="text-h5 text-white" />
@@ -181,12 +181,12 @@ export default function Header() {
               </div>
             </div>
           )}
-          <div className="absolute top-5 right-10 ">
+          <div className="absolute bottom-24 right-10 ">
             <button
               onClick={() => {
                 MobtoggleMute();
               }}
-              className="p-3 rounded-full bg-grey"
+              className="p-3 rounded-full volume"
             >
               {mobmute ? (
                 <IoMdVolumeOff className="text-h5 text-white" />
