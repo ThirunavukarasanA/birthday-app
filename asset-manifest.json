@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/birthday-app/static/css/main.a801c7ad.css",
-    "main.js": "/birthday-app/static/js/main.ee2aabcc.js",
+    "main.css": "/birthday-app/static/css/main.9ab020a8.css",
+    "main.js": "/birthday-app/static/js/main.5df81ef3.js",
     "static/js/453.eb0578ad.chunk.js": "/birthday-app/static/js/453.eb0578ad.chunk.js",
     "static/media/Not ok sam 03.mp4": "/birthday-app/static/media/Not ok sam 03.8590fc9f77142b19b5cd.mp4",
     "static/media/sam 03 P.mp4": "/birthday-app/static/media/sam 03 P.e8e6e5d8cb0275539d97.mp4",
@@ -40,12 +40,12 @@
     "static/media/ring.png": "/birthday-app/static/media/ring.d9c03ac5195efa1e21c5.png",
     "static/media/swipe.png": "/birthday-app/static/media/swipe.fcb7b11a7ed5791ce237.png",
     "index.html": "/birthday-app/index.html",
-    "main.a801c7ad.css.map": "/birthday-app/static/css/main.a801c7ad.css.map",
-    "main.ee2aabcc.js.map": "/birthday-app/static/js/main.ee2aabcc.js.map",
+    "main.9ab020a8.css.map": "/birthday-app/static/css/main.9ab020a8.css.map",
+    "main.5df81ef3.js.map": "/birthday-app/static/js/main.5df81ef3.js.map",
     "453.eb0578ad.chunk.js.map": "/birthday-app/static/js/453.eb0578ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a801c7ad.css",
-    "static/js/main.ee2aabcc.js"
+    "static/css/main.9ab020a8.css",
+    "static/js/main.5df81ef3.js"
   ]
 }
