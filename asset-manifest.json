@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/birthday-app/static/css/main.fc9efc8d.css",
-    "main.js": "/birthday-app/static/js/main.0aabeb5d.js",
+    "main.css": "/birthday-app/static/css/main.a023911a.css",
+    "main.js": "/birthday-app/static/js/main.604b7dad.js",
     "static/js/453.eb0578ad.chunk.js": "/birthday-app/static/js/453.eb0578ad.chunk.js",
     "static/media/Not ok sam 03.mp4": "/birthday-app/static/media/Not ok sam 03.8590fc9f77142b19b5cd.mp4",
     "static/media/sam 03 P.mp4": "/birthday-app/static/media/sam 03 P.e8e6e5d8cb0275539d97.mp4",
@@ -26,12 +26,12 @@
     "static/media/story2.mp4": "/birthday-app/static/media/story2.c75bed517aa6c50e513b.mp4",
     "static/media/thirdbg1.png": "/birthday-app/static/media/thirdbg1.1ef329b30df1dedfe4bb.png",
     "static/media/mix2.png": "/birthday-app/static/media/mix2.5fa502a7d0b1ee08400f.png",
+    "static/media/video section.png": "/birthday-app/static/media/video section.614b006a933619f8c43f.png",
     "static/media/mobview.png": "/birthday-app/static/media/mobview.4b7d0b58cdb66ee3e782.png",
     "static/media/SILVER_WIGGLE 1.png": "/birthday-app/static/media/SILVER_WIGGLE 1.1f1bd87b18581bfc26ec.png",
     "static/media/GREEN_SHAPE2.png": "/birthday-app/static/media/GREEN_SHAPE2.c049c4bf071bccc5f346.png",
     "static/media/Floral.png": "/birthday-app/static/media/Floral.75414931a48e03b3a87f.png",
     "static/media/LAVENDER_GRADIENT.png": "/birthday-app/static/media/LAVENDER_GRADIENT.459a78d9f812d447f6c1.png",
-    "static/media/section-5.png": "/birthday-app/static/media/section-5.83f347593a83a5a261db.png",
     "static/media/thumbnail2.png": "/birthday-app/static/media/thumbnail2.86ad93fbf3bedba8d8f0.png",
     "static/media/star.png": "/birthday-app/static/media/star.cae3b65728afd2121b10.png",
     "static/media/thumbnail.png": "/birthday-app/static/media/thumbnail.7c3544e595e04e78cbe7.png",
@@ -44,12 +44,12 @@
     "static/media/ring.png": "/birthday-app/static/media/ring.d9c03ac5195efa1e21c5.png",
     "static/media/swipe.png": "/birthday-app/static/media/swipe.fcb7b11a7ed5791ce237.png",
     "index.html": "/birthday-app/index.html",
-    "main.fc9efc8d.css.map": "/birthday-app/static/css/main.fc9efc8d.css.map",
-    "main.0aabeb5d.js.map": "/birthday-app/static/js/main.0aabeb5d.js.map",
+    "main.a023911a.css.map": "/birthday-app/static/css/main.a023911a.css.map",
+    "main.604b7dad.js.map": "/birthday-app/static/js/main.604b7dad.js.map",
     "453.eb0578ad.chunk.js.map": "/birthday-app/static/js/453.eb0578ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc9efc8d.css",
-    "static/js/main.0aabeb5d.js"
+    "static/css/main.a023911a.css",
+    "static/js/main.604b7dad.js"
   ]
 }
