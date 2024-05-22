@@ -52,10 +52,12 @@ export default function FourthSection({ Scroll }) {
                 <p
                   className={`tracking-in-contract lg:text-left lge:text-left md:text-center mdsm:text-center sm:text-center lg:text-[50px] lge:text-[50px] md:text-[50px] mdsm:text-[40px] sm:text-[30px] font-semibold leading-tight font-serif relative  sm:bg-[#FF5B49]`}
                 >
-                  Wrapped Mapped <br />
+                  Memories
+                  <br /> (Audio + Text Messages)
+                  {/* Wrapped Mapped <br />
                   Top Songs Streamed
                   <br />
-                  Around the World
+                  Around the World */}
                 </p>
               </>
             ) : (
@@ -100,7 +102,7 @@ export default function FourthSection({ Scroll }) {
                           alt=""
                         />
                         <div>
-                          <p className="text-h3 text-white ">Jhone Doe</p>
+                          <p className="text-h3 ">Jhone Doe</p>
                           <p className="text-h6 text-">Editor</p>
                         </div>
                       </div>
@@ -120,7 +122,7 @@ export default function FourthSection({ Scroll }) {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide id="fou" className="bg-white">
-                  <div className="flex justify-center p-3 items-center h-full">
+                  <div className="flex justify-center p-3 items-center h-full drop-shadow-lg bg-gradient-to-br from-[#F4FF47] via-[#D3F46A] to-[#FFAD40]">
                     <div className="w-full">
                       <div className="flex gap-5 pb-3">
                         <img
@@ -149,7 +151,7 @@ export default function FourthSection({ Scroll }) {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide id="fou" className="bg-white">
-                  <div className="flex justify-center p-3 items-center h-full">
+                  <div className="flex justify-center p-3 items-center h-full drop-shadow-lg bg-gradient-to-br from-[#F4FF47] via-[#D3F46A] to-[#FFAD40]">
                     <div className="w-full">
                       <div className="flex gap-5 pb-3">
                         <img
@@ -178,7 +180,7 @@ export default function FourthSection({ Scroll }) {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide id="fou" className="bg-white">
-                  <div className="flex justify-center p-3 items-center h-full">
+                  <div className="flex justify-center p-3 items-center h-full drop-shadow-lg bg-gradient-to-br from-[#F4FF47] via-[#D3F46A] to-[#FFAD40]">
                     <div className="w-full">
                       <div className="flex gap-5 pb-3">
                         <img
@@ -207,7 +209,7 @@ export default function FourthSection({ Scroll }) {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide id="fou" className="bg-white">
-                  <div className="flex justify-center p-3 items-center h-full">
+                  <div className="flex justify-center p-3 items-center h-full drop-shadow-lg bg-gradient-to-br from-[#F4FF47] via-[#D3F46A] to-[#FFAD40]">
                     <div className="w-full">
                       <div className="flex gap-5 pb-3">
                         <img
@@ -236,7 +238,7 @@ export default function FourthSection({ Scroll }) {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide id="fou" className="bg-white">
-                  <div className="flex justify-center p-3 items-center h-full">
+                  <div className="flex justify-center p-3 items-center h-full drop-shadow-lg bg-gradient-to-br from-[#F4FF47] via-[#D3F46A] to-[#FFAD40]">
                     <div className="w-full">
                       <div className="flex gap-5 pb-3">
                         <img

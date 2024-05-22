@@ -5,6 +5,7 @@ import ThirdHeader from "../components/ThirdHeader";
 import "../Assets/css/style.css";
 import { useInView } from "react-intersection-observer";
 import FourthSection from "../components/FourthSection";
+import VideoSection from "../components/VideoSection";
 export default function HomePage() {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -43,8 +44,9 @@ export default function HomePage() {
     <div className="scrollable-container onload">
       <Header Scroll={scrollPosition} />
       <SecondSection Scroll={scrollPosition} />
+      <VideoSection Scroll={scrollPosition} />
+      {/* <FourthSection Scroll={scrollPosition} /> */}
       <ThirdHeader Scroll={scrollPosition} />
-      <FourthSection Scroll={scrollPosition} />
     </div>
   );
 }

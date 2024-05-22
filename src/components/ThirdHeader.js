@@ -30,15 +30,23 @@ import Ring2 from "../Assets/images/secondheader/ring2.png";
 import Mix from "../Assets/images/secondheader/mix2.png";
 import AudioPlayer from "./AudioPlayer";
 export default function ThirdHeader({ Scroll }) {
-  // console.log(Scroll);
   const [addani, setAddani] = useState(false);
   useEffect(() => {
-    if (Scroll > 1380) {
+    if (Scroll > 2500) {
       setAddani(true);
     } else {
       setAddani(false);
     }
   }, [Scroll]);
+  const whastApp = [
+    {
+      id: 0,
+      img: "",
+      name: "",
+      message: "",
+      audiofile: "",
+    },
+  ];
   return (
     <div>
       <div className="bg-[#16D0A6] ">
@@ -82,7 +90,6 @@ export default function ThirdHeader({ Scroll }) {
                       </div>
                     </div>
                   </div>
-                  {/* #e9edef #d1d7dbc0 */}
                   <div className="bg-[#cfcecea1]">
                     <div className="whatsAppBg h-[18.5rem] pb-2">
                       <div className="pt-10">
@@ -93,16 +100,10 @@ export default function ThirdHeader({ Scroll }) {
                           </div>
                         </div>
                       </div>
-
                       <div className="pt-10">
                         <div className="bg-white w-fit p-2 rounded-e-md rounded-b-md mx-3">
                           <AudioPlayer src={Audio1} />
-                          {/* <div className="flex items-center gap-x-3"> */}
-                          {/* <audio controls className="w-52">
-                              <source src={Audio1} type="audio/mp3" />
-                            </audio>
-                            <p className="flex justify-end text-tiny text-grey">3.00 pm</p> */}
-                          {/* </div> */}
+                          
                         </div>
                       </div>
                     </div>
@@ -304,8 +305,10 @@ export default function ThirdHeader({ Scroll }) {
             <div className="px-16 lg:pt-14 lge:pt-14 md:pt-14 mdsm:pt-16 sm:pt-16">
               {addani ? (
                 <p className="sm:bg-[#16D0A6] md:bg-[#16D0A6] mdsm:bg-[#16D0A6] tracking-in-contract lg:text-right lge:text-right md:text-center mdsm:text-center sm:text-center lg:text-[50px] lge:text-[50px] md:text-[50px] mdsm:text-[40px] sm:text-[30px] font-semibold leading-tight font-serif">
-                  The Top Songs, Artist, <br />
-                  Podacasts, and Listening <br /> Trends of 2023 Revealed
+                  {/* The Top Songs, Artist, <br />
+                  Podacasts, and Listening <br /> Trends of 2023 Revealed */}
+                  Memories
+                  <br /> (Audio + Text Messages)
                 </p>
               ) : (
                 <p className="sm:bg-[#16D0A6] lg:text-right lge:text-right md:text-center mdsm:text-center sm:text-center lg:text-[50px] lge:text-[50px] md:text-[50px] mdsm:text-[40px] sm:text-[30px] font-semibold leading-tight font-serif">

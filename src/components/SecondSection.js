@@ -25,8 +25,12 @@ export default function SecondSection({ Scroll }) {
               <p
                 className={`tracking-in-contract relative z-10 lg:text-[64px] lge:text-[64px] md:text-[54px] mdsm:text-[44px] sm:text-[24px] font-semibold leading-none font-serif `}
               >
-                Here's What's In <br />
-                Store for Your <br /> 2023 Warpped
+                50 WHOLE YEARS
+                <br /> OF BEING
+                <br />
+                AWESOME
+                {/* Here's What's In <br />
+                Store for Your <br /> 2023 Warpped */}
               </p>
             </div>
           ) : (
@@ -44,8 +48,10 @@ export default function SecondSection({ Scroll }) {
               <p
                 className={`tracking-in-contract relative z-10 md:bg-[#DAB503] lg:text-[64px] lge:text-[64px] md:text-[54px] mdsm:text-[44px] sm:text-[24px] font-semibold leading-none font-serif `}
               >
-                Here's What's In <br />
-                Store for Your <br /> 2023 Warpped
+                50 WHOLE YEARS
+                <br /> OF BEING
+                <br />
+                AWESOME
               </p>
             </div>
           )}
@@ -53,8 +59,10 @@ export default function SecondSection({ Scroll }) {
         <div className="lg:hidden lge:hidden md:hidden mdsm:block sm:block px-20 sm:px-10 pt-20">
           {addani && (
             <p className="tracking-in-contract relative z-10 bg-[#DAB503] text-center lg:text-[64px] lge:text-[64px] md:text-[54px] mdsm:text-[44px] sm:text-[36px] font-semibold leading-none font-serif">
-              Here's What's In <br />
-              Store for Your <br /> 2023 Warpped
+              50 WHOLE YEARS
+              <br /> OF BEING
+              <br />
+              AWESOME
             </p>
           )}
         </div>
@@ -75,15 +83,15 @@ export default function SecondSection({ Scroll }) {
           <div className="absolute right-0 bottom-0 lg:hidden lge:hidden md:hidden mdsm:block sm:block">
             <img src={MobGreenPanel} alt="green panel" className="" />
           </div>
-          <div className="absolute top-[11.25rem] right-[13.25rem]">
+          {/* <div className="absolute top-[11.25rem] right-[13.25rem]">
             <img src={Flower} alt="Flower" className="spinn" />
-          </div>
-          <div className="absolute top-0 right-0">
+          </div> */}
+          {/* <div className="absolute top-0 right-0">
             <img src={Wire} alt="Wire" />
           </div>
           <div className="absolute bottom-0">
             <img src={Wire2} alt="wire2" className="" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

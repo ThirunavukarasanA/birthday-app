@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import DesktopMap from "../Assets/videos/Not ok sam 03.mp4";
 import TabMap from "../Assets/videos/sam 03 P.mp4";
+import Next from "../Assets/images/next.png";
 export default function GlobeAnimation() {
   const videoRef = useRef(null);
   const [showDesktop, setShowDesktop] = useState(false);
@@ -34,6 +35,7 @@ export default function GlobeAnimation() {
       entries.forEach((entry) => {
         setShowDesktop(false);
         setShowMobile(false);
+        setShowArrow(false);
         if (entry.isIntersecting) {
           setShowDesktop(false);
           setShowMobile(false);
@@ -66,7 +68,7 @@ export default function GlobeAnimation() {
     };
   }, []);
   return (
-    <div>
+    <div id="globe">
       <div className="relative lg:block lge:block md:hidden mdsm:hidden sm:hidden">
         <video
           ref={videoRef}
@@ -95,9 +97,9 @@ export default function GlobeAnimation() {
           </div>
         )}
         {showArrow && (
-          <div className="absolute bottom-0 -right-0 border">
-            <a href="#scroll" className="text-white">
-              arrow
+          <div className="absolute bottom-24 right-6 scale-in-hor-right">
+            <a href="#scroll" className="">
+              <img src={Next} alt="next button" className="" />
             </a>
           </div>
         )}
@@ -127,6 +129,13 @@ export default function GlobeAnimation() {
                 Play Again
               </button>
             </div>
+          </div>
+        )}
+        {showArrow && (
+          <div className="absolute bottom-24 right-6 scale-in-hor-right">
+            <a href="#scroll" className="">
+              <img src={Next} alt="next button" className="" />
+            </a>
           </div>
         )}
       </div>

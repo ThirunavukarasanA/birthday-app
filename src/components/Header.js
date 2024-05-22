@@ -82,18 +82,26 @@ export default function Header() {
             Your browser does not support the video tag.
           </video>
           {showPlayButton && (
-            <div className="absolute top-0 w-full h-full vidbg">
-              <div className="flex justify-center items-center h-full">
-                <button
-                  onClick={() => {
-                    handlePlayButtonClick();
-                  }}
-                  className="rounded-lg px-6 py-2 backcolor text-white text-h4 font-serif"
-                >
-                  Play Again
-                </button>
+            <>
+              <div className="absolute top-0 w-full h-full vidbg">
+                <div className="flex justify-center items-center h-full gap-x-5">
+                  <button
+                    onClick={() => {
+                      handlePlayButtonClick();
+                    }}
+                    className="rounded-lg px-6 py-2 backcolor text-white text-h4 font-serif"
+                  >
+                    Play Again
+                  </button>
+                  {/* <a
+                    href="#globe"
+                    className="rounded-lg px-6 py-2 backcolor text-white text-h4 font-serif "
+                  >
+                    Scroll Down
+                  </a> */}
+                </div>
               </div>
-            </div>
+            </>
           )}
           <div className="absolute bottom-20 right-10">
             <button
@@ -137,7 +145,7 @@ export default function Header() {
               </div>
             </div>
           )}
-          <div className="absolute bottom-24 right-10 ">
+          <div className="absolute bottom-96 right-10 ">
             <button
               onClick={() => {
                 TabtoggleMute();
