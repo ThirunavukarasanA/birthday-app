@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/birthday-app/static/css/main.9ab020a8.css",
-    "main.js": "/birthday-app/static/js/main.5df81ef3.js",
+    "main.css": "/birthday-app/static/css/main.fc9efc8d.css",
+    "main.js": "/birthday-app/static/js/main.0aabeb5d.js",
     "static/js/453.eb0578ad.chunk.js": "/birthday-app/static/js/453.eb0578ad.chunk.js",
     "static/media/Not ok sam 03.mp4": "/birthday-app/static/media/Not ok sam 03.8590fc9f77142b19b5cd.mp4",
     "static/media/sam 03 P.mp4": "/birthday-app/static/media/sam 03 P.e8e6e5d8cb0275539d97.mp4",
+    "static/media/rvs staff.mp4": "/birthday-app/static/media/rvs staff.18034635a1c56d27fa15.mp4",
     "static/media/trutee vertical.mov": "/birthday-app/static/media/trutee vertical.c689bff330d4378befc1.mov",
     "static/media/trutee vertical mob.mov": "/birthday-app/static/media/trutee vertical mob.51860fb0b4748ff69f5c.mov",
     "static/media/story3.mp4": "/birthday-app/static/media/story3.29f06d81d5e871fd8890.mp4",
@@ -30,7 +31,10 @@
     "static/media/GREEN_SHAPE2.png": "/birthday-app/static/media/GREEN_SHAPE2.c049c4bf071bccc5f346.png",
     "static/media/Floral.png": "/birthday-app/static/media/Floral.75414931a48e03b3a87f.png",
     "static/media/LAVENDER_GRADIENT.png": "/birthday-app/static/media/LAVENDER_GRADIENT.459a78d9f812d447f6c1.png",
+    "static/media/section-5.png": "/birthday-app/static/media/section-5.83f347593a83a5a261db.png",
+    "static/media/thumbnail2.png": "/birthday-app/static/media/thumbnail2.86ad93fbf3bedba8d8f0.png",
     "static/media/star.png": "/birthday-app/static/media/star.cae3b65728afd2121b10.png",
+    "static/media/thumbnail.png": "/birthday-app/static/media/thumbnail.7c3544e595e04e78cbe7.png",
     "static/media/whatsApp bg.png": "/birthday-app/static/media/whatsApp bg.39f53e74f66d348d9f7c.png",
     "static/media/SILVER_WIGGLE2 1.png": "/birthday-app/static/media/SILVER_WIGGLE2 1.1c90dccc32fe6ea156b6.png",
     "static/media/fourtanime.png": "/birthday-app/static/media/fourtanime.1421272a8fd75d6c4840.png",
@@ -40,12 +44,12 @@
     "static/media/ring.png": "/birthday-app/static/media/ring.d9c03ac5195efa1e21c5.png",
     "static/media/swipe.png": "/birthday-app/static/media/swipe.fcb7b11a7ed5791ce237.png",
     "index.html": "/birthday-app/index.html",
-    "main.9ab020a8.css.map": "/birthday-app/static/css/main.9ab020a8.css.map",
-    "main.5df81ef3.js.map": "/birthday-app/static/js/main.5df81ef3.js.map",
+    "main.fc9efc8d.css.map": "/birthday-app/static/css/main.fc9efc8d.css.map",
+    "main.0aabeb5d.js.map": "/birthday-app/static/js/main.0aabeb5d.js.map",
     "453.eb0578ad.chunk.js.map": "/birthday-app/static/js/453.eb0578ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ab020a8.css",
-    "static/js/main.5df81ef3.js"
+    "static/css/main.fc9efc8d.css",
+    "static/js/main.0aabeb5d.js"
   ]
 }
