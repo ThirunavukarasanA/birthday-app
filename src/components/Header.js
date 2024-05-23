@@ -2,8 +2,8 @@ import React, { useRef, useState } from "react";
 import "../Assets/css/style.css";
 import { IoMdVolumeHigh, IoMdVolumeOff } from "react-icons/io";
 import Head from "../Assets/videos/trutee lanscap.mov";
-import TabHead from "../Assets/videos/trutee vertical.mov";
-import MobHead from "../Assets/videos/trutee vertical mob.mov";
+import TabHead from "../Assets/videos/trutee vertical mob1.mp4";
+import MobHead from "../Assets/videos/trutee vertical mob1.mp4";
 import TimeCarosel from "./TimeCarosel";
 import GlobeAnimation from "./GlobeAnimation";
 export default function Header() {
