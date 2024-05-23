@@ -1,19 +1,17 @@
 {
   "files": {
     "main.css": "/birthday-app/static/css/main.a023911a.css",
-    "main.js": "/birthday-app/static/js/main.604b7dad.js",
+    "main.js": "/birthday-app/static/js/main.ebf9c187.js",
     "static/js/453.eb0578ad.chunk.js": "/birthday-app/static/js/453.eb0578ad.chunk.js",
-    "static/media/Not ok sam 03.mp4": "/birthday-app/static/media/Not ok sam 03.8590fc9f77142b19b5cd.mp4",
-    "static/media/sam 03 P.mp4": "/birthday-app/static/media/sam 03 P.e8e6e5d8cb0275539d97.mp4",
     "static/media/rvs staff.mp4": "/birthday-app/static/media/rvs staff.18034635a1c56d27fa15.mp4",
-    "static/media/trutee vertical.mov": "/birthday-app/static/media/trutee vertical.c689bff330d4378befc1.mov",
-    "static/media/trutee vertical mob.mov": "/birthday-app/static/media/trutee vertical mob.51860fb0b4748ff69f5c.mov",
     "static/media/story3.mp4": "/birthday-app/static/media/story3.29f06d81d5e871fd8890.mp4",
     "static/media/First.mp4": "/birthday-app/static/media/First.8cb8861bf602fb9073a1.mp4",
     "static/media/trutee lanscap.mov": "/birthday-app/static/media/trutee lanscap.32a3c196a9c99ac19860.mov",
     "static/media/Group 12.png": "/birthday-app/static/media/Group 12.d13da373bf99f488afd8.png",
+    "static/media/trutee vertical mob1.mp4": "/birthday-app/static/media/trutee vertical mob1.12cc5f7d95a56f9ab179.mp4",
     "static/media/Group 14.png": "/birthday-app/static/media/Group 14.4eebe29a65e4960875f1.png",
     "static/media/Group 17.png": "/birthday-app/static/media/Group 17.af6948fea003786acabf.png",
+    "static/media/mobmap.mp4": "/birthday-app/static/media/mobmap.6dfb5093dda600d639d0.mp4",
     "static/media/Group 16.png": "/birthday-app/static/media/Group 16.1e903d40858c3abeb489.png",
     "static/media/Group 15.png": "/birthday-app/static/media/Group 15.7cd9c2d10bce7796c69e.png",
     "static/media/Group 10.png": "/birthday-app/static/media/Group 10.fa3fc9fcd054462fd3c2.png",
@@ -21,6 +19,7 @@
     "static/media/Group 13.png": "/birthday-app/static/media/Group 13.273a7ba90b78a9739a9b.png",
     "static/media/sample.wav": "/birthday-app/static/media/sample.f336f852843c69921a73.wav",
     "static/media/sample.ogg": "/birthday-app/static/media/sample.8ff915830d5337649db2.ogg",
+    "static/media/final map.mp4": "/birthday-app/static/media/final map.57164804ca08d361c8d7.mp4",
     "static/media/sample.mp3": "/birthday-app/static/media/sample.54b9775ae7f82bcf7973.mp3",
     "static/media/story.mp4": "/birthday-app/static/media/story.db9fe8c24d89a5fbc072.mp4",
     "static/media/story2.mp4": "/birthday-app/static/media/story2.c75bed517aa6c50e513b.mp4",
@@ -45,11 +44,11 @@
     "static/media/swipe.png": "/birthday-app/static/media/swipe.fcb7b11a7ed5791ce237.png",
     "index.html": "/birthday-app/index.html",
     "main.a023911a.css.map": "/birthday-app/static/css/main.a023911a.css.map",
-    "main.604b7dad.js.map": "/birthday-app/static/js/main.604b7dad.js.map",
+    "main.ebf9c187.js.map": "/birthday-app/static/js/main.ebf9c187.js.map",
     "453.eb0578ad.chunk.js.map": "/birthday-app/static/js/453.eb0578ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a023911a.css",
-    "static/js/main.604b7dad.js"
+    "static/js/main.ebf9c187.js"
   ]
 }
