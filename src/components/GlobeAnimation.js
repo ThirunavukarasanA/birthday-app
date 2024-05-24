@@ -80,7 +80,7 @@ export default function GlobeAnimation() {
           playsInline
           className="w-full"
         >
-          <source src={DesktopMap} />
+          <source src="https://rvscas.ac.in/videos/24-05-2024.mp4" />
         </video>
         {showDesktop && (
           <div className="absolute top-0 border w-full h-full vidbg">
@@ -115,7 +115,7 @@ export default function GlobeAnimation() {
           playsInline
           className="w-full"
         >
-          <source src={TabMap} />
+          <source src="https://rvscas.ac.in/videos/24-05-2024%20-%20P.mp4" />
         </video>
         {showMobile && (
           <div className="absolute top-0 border w-full h-full vidbg">

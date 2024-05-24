@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import RvsStaff from "../Assets/videos/rvs staff.mp4";
 import Thumbnail from "../Assets/images/thumbnail.png";
 import Thumbnail2 from "../Assets/images/thumbnail2.png";
+import Thumb from "../Assets/images/1.png";
+import Thumb2 from "../Assets/images/2.png";
 export default function VideoSection({ Scroll }) {
   console.log("Scroll", Scroll);
   const [addani, setAddani] = useState(false);
@@ -58,13 +60,13 @@ export default function VideoSection({ Scroll }) {
         <div className="lg:flex lge:flex md:flex mdsm:block sm:block lg:justify-around lge:justify-around md:justify-around mdsm:px-24 sm:px-24 md:gap-5">
           <video
             controls
-            poster={Thumbnail}
+            poster={Thumb2}
             width="350"
             className="lg:pb-0 lge:pb-0 md:pb-0 sm:pb-10 mdsm:pb-10"
           >
             <source src={RvsStaff} />
           </video>
-          <video controls poster={Thumbnail2} width="350">
+          <video controls poster={Thumb} width="350">
             <source src={RvsStaff} />
           </video>
         </div>

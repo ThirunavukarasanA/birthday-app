@@ -28,7 +28,7 @@ export default function HomePage() {
     };
   }, []);
   return (
-    <div className="">
+    <div className="onload">
       <Header Scroll={scrollPosition} />
       <SecondSection Scroll={scrollPosition} />
       <VideoSection Scroll={scrollPosition} />
