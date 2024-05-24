@@ -62,11 +62,11 @@ export default function VideoSection({ Scroll }) {
             controls
             poster={Thumb2}
             width="350"
-            className="lg:pb-0 lge:pb-0 md:pb-0 sm:pb-10 mdsm:pb-10"
+            className="lg:pb-0 lge:pb-0 md:pb-0 sm:pb-10 mdsm:pb-10 rounded-xl"
           >
             <source src={RvsStaff} />
           </video>
-          <video controls poster={Thumb} width="350">
+          <video controls poster={Thumb} width="350" className="rounded-xl">
             <source src={RvsStaff} />
           </video>
         </div>
